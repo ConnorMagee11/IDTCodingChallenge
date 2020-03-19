@@ -16,10 +16,11 @@
             tools:context=".MapsActivity" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_SaveLocation"
         android:layout_width="match_parent"
         android:layout_height="96dp"
         android:layout_gravity="bottom|center"
+        android:onClick="saveLocation"
         android:text="Save Location"
         map:layout_anchorGravity="bottom|center" />
 
